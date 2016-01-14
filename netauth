@@ -1,0 +1,8 @@
+---
+
+cisco:
+  nexus:
+    username: "admin"
+    password: "c15c0123!"
+
+

@@ -1,0 +1,14 @@
+---
+
+- name: vlan testing
+  hosts: spine1
+  connection: local
+  gather_facts: no
+
+
+  tasks:
+
+
+    # Ensure VLAN is NOT on the device
+    - nxos_vlan: vlan_id="2-10,20,30,40,50-60,99" host={{ inventory_hostname }} state=absent
+

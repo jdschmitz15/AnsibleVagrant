@@ -1,0 +1,14 @@
+[all:vars]
+ansible_connection = local
+
+[all-leaf]
+leaf1
+leaf2
+leaf3
+
+[all-spine]
+spine1
+
+[other]
+test	mgmt_ip=10.87.125.120
+
